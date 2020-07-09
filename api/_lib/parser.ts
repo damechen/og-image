@@ -56,7 +56,7 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 function getDefaultImages(images: string[], theme: Theme): string[] {
   const defaultImage =
     theme === "light"
-      ? "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg"
+      ? "https://firebasestorage.googleapis.com/v0/b/backlogsco.appspot.com/o/products%2Ffeedback%2Ffeedback%2Fbug%2FIo1XqWRfVV.gif?alt=media&token=2da66afe-e52d-4ecc-b8d7-94ddca1ab9bc"
       : "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg";
 
   if (!images || !images[0]) {
